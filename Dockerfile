@@ -1,7 +1,6 @@
 ARG NODE_VERSION="alpine"
 
 FROM node:$NODE_VERSION as builder
-
 LABEL MAINTAINER="Alessandro Sanino <a.sanino@tryvium.io>"
 
 # Opencontainers Metadata
